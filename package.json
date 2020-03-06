@@ -1,0 +1,19 @@
+{
+  "name": "atlassian-to-csv-query-tool",
+  "version": "1.0.0",
+  "description": "🔎📇📈Atlassian Query Tool  is a NodeJS application for fetching data from JIRA to excel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JSWesterfield/atlassian-query-tool.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JSWesterfield/atlassian-query-tool/issues"
+  },
+  "homepage": "https://github.com/JSWesterfield/atlassian-query-tool#readme"
+}
