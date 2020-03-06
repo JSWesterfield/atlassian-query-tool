@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/JSWesterfield/atlassian-query-tool/issues"
   },
-  "homepage": "https://github.com/JSWesterfield/atlassian-query-tool#readme"
+  "homepage": "https://github.com/JSWesterfield/atlassian-query-tool#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "node-cron": "^2.0.3"
+  }
 }
