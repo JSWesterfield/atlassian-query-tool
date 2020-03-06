@@ -1,7 +1,7 @@
 // index.js
 const cron = require("node-cron"); // schedule tasks for different intervals
 const express = require("express");
-const fs = require("fs");
+const fs = require('fs');
 
 app = express();
 
@@ -35,7 +35,7 @@ var task = cron.schedule('* * * * *', () => {
     //     res.sendStatus(404);
     //     res.end();
     //   }
-    fs.unlink("./error.log", err => {
+    fs.unlink('./', err => {
         if (err) throw err;
         console.log("Error file succesfully deleted");
     });
