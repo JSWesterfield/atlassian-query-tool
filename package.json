@@ -18,7 +18,9 @@
   "homepage": "https://github.com/JSWesterfield/atlassian-query-tool#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "express-winston": "^4.0.3",
     "fs": "0.0.1-security",
-    "node-cron": "^2.0.3"
+    "node-cron": "^2.0.3",
+    "winston": "^3.2.1"
   }
 }

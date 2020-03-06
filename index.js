@@ -1,5 +1,5 @@
 // index.js
-const cron = require("node-cron");
+const cron = require("node-cron"); // schedule tasks for different intervals
 const express = require("express");
 const fs = require("fs");
 
